@@ -10,70 +10,7 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<header>
-				<img id="header-link" src="/resources/assets/Logo.png">
-				<div id="menu-button" onclick="showMenu(); return false;">
-					<a href="#">Menu   <i class="fa fa-bars"></i></a>
-				</div>
-			</header>
-			<div id="main">
-				<div id="faq-container">
-					<div class="faq-section">
-						<h2>Main Questions</h2>
-						<div class="faq-question">
-							<button onclick="openQuestion(this)" class="question">- Integer aliquet eleifend iaculis. Aliquam.</button><br>
-							<p class="answer" style="display: block">Phasellus vitae massa tincidunt, luctus massa a, suscipit felis. Integer porta, ligula vitae mollis aliquam.</p><br><br>
-						</div>
-						
-						<div class="faq-question">
-							<button onclick="openQuestion(this)" class="question">+ Nullam ligula nisi, suscipit id.</button><br>
-							<p class="answer" style="display: none">Nullam id sem orci. Proin eget enim id turpis volutpat porttitor. Aliquam erat volutpat. Sed a massa nec dui mollis dapibus. Mauris varius in odio gravida elementum. Suspendisse sed ex nec risus gravida cursus. Integer in fringilla arcu. Mauris scelerisque, libero et feugiat pretium, ligula nisi sodales ipsum, quis pharetra magna erat sed eros. Praesent ornare dictum malesuada. Suspendisse elementum massa ut nisl mattis faucibus.</p><br><br>
-						</div>
-					</div>
-					
-					<div class="faq-section">
-						<h2>Extra Questions</h2>
-						<div class="faq-question">
-							<button onclick="openQuestion(this)" class="question">+ Suspendisse mattis ornare turpis ut.</button><br>
-							<p class="answer" style="display: none">Curabitur sed mauris odio. Nullam scelerisque magna in eleifend varius. Interdum et malesuada fames ac.</p><br><br>
-						</div>
-						
-						<div class="faq-question">
-							<button onclick="openQuestion(this)" class="question">+ Morbi mattis volutpat efficitur. Maecenas facilisis sapien nibh, ac sollicitudin lorem rutrum nec. Nam ut.</button><br>
-							<p class="answer" style="display: none">Quisque blandit, elit nec facilisis porttitor, erat enim accumsan sapien, vitae maximus erat lectus eget.</p><br><br>
-						</div>
-					</div>
-					<script>
-						function openQuestion(element){
-							var answer = element.parentElement.getElementsByClassName("answer")[0];
-							if(answer.style.display == "none"){
-								element.innerHTML = "-" + element.innerHTML.substring(1);
-								//answer.style.display = "inline";
-								$(answer).slideDown("slow");
-							}else{
-								element.innerHTML = "+" + element.innerHTML.substring(1);
-								//answer.style.display = "none";
-								$(answer).slideUp("slow");
-							}
-						}
-					</script>
-				</div>
-			</div>
-			<div id="footer">
-				<p>This site has been built as a Template by Antonio Gaspari and Varun Nair</p>
-			</div>
-		</div>
-		
-		<div id="menu">
-			<div id="menu-context">
-				<h3>Menu</h3>
-				<ul id="menu-list">
-					<li class="menu-link"><a href="/">Main</a></li>
-					<li class="menu-link"><a href="/info/">Info</a></li>
-					<li class="menu-link selected-menu"><a href="/faq/">FAQ</a></li>
-				</ul>
-				<a href="#" class="closeNav" onclick="closeNavMenu()"><i class="fa fa-times"></i></a>
-			</div>
+			
 		</div>
 	</body>
 </html>
