@@ -5,6 +5,15 @@ html{
 	
 }
 
+ul, li{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li a, li a:hover{
+	color: white;
+}
+
 body{
 	background-color: transparent;
 	color: white;
@@ -49,4 +58,41 @@ a.navbar-brand{
 .carousel-inner>.item>img{
 	width: 100%;
 	height: 350px;
+}
+
+
+/*FAQ*/
+.jumbotron{
+	background-image: url("/resources/assets/banners/banner01.jpg");
+}
+
+#faqQuestions{
+	width: 65%;
+	margin: auto;
+	
+}
+
+.question{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 4vmin;
+}
+
+.faqQuestion{
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+.faqSection{
+	border-bottom: solid rgba(140, 140, 140, .3) 1px;
+}
+
+/* Footer */
+#footer{
+	margin: 30px auto;
+}
+
+.social-icon{
+	margin: 5px;
 }
