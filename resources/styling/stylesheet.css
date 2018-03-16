@@ -1,3 +1,7 @@
+
+.hideme{
+    opacity:0;
+}
 html{
 	background-color: rgba(15, 15, 15, .95);
 	/*background: rgba(0, 195, 255, .6), url("/background.png");*/
