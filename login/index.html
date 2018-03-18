@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nova Designs - Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/siteFunctionality.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/stylesheet.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="/"><img id="logo" src="/resources/assets/Logo.png"></a>
+					</div>	
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="/">Home</a></li>
+							<li><a href="#">Pricing</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="/faq/">FAQ</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+							<li><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div id="content">
+				<div class="jumbotron">
+					<h1>Login</h1> 
+					<p></p> 
+				</div>
+				<div id="login-form">
+					<form>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+							<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+						</div>
+						<div id="extra-options">
+							<div id="remember-me" class="checkbox">
+								<label><input type="checkbox"> Remember me</label>
+							</div>
+							<div id="login-forgot-password">
+								<a href="#">Forgot your password?</a>
+							</div>
+						</div>
+						<button type="submit" class="btn btn-default btn-block">Submit</button>
+						<div id="create-account-link-container">
+							<p>Don't have an account? Create one <a href="/register/">here</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="row">
+				<div class="footerSection col-lg-4 col-md-4 col-sm-6 col-xs-6">
+					<ul>
+						<li class="footer-item"><b>Nova Designs</b></li>
+						<li><a href="/"></a></li>
+						<li><a href="/"></a></li>
+						<li><a href="/"></a></li>
+						<li><a href="/"></a></li>
+					</ul>
+				</div>
+				<div class="footerSection col-lg-4 col-md-4 col-sm-6 col-xs-6">
+					<ul>
+						<li class="footer-item"><b>Customer Service</b></li>
+						<li class="footer-item"><a href="/">FAQ</a></li>
+						<li class="footer-item"><a href="/">Contact Us</a></li>
+						<li class="footer-item"><a href="/">Return Policy</a></li>
+						<li class="footer-item"><a href="/">Pricing Details</a></li>
+					</ul>
+				</div>
+				<div class="footerSection col-lg-4 col-md-4 hidden-sm hidden-xs">
+					<div id="social-media-footer">					
+						<p><b>Follow Us</b></p>
+						<a href="#" class="social-icon"><i class="fa fa-twitter fa-2x"></i></a>
+						<a href="#" class="social-icon"><i class="fa fa-facebook fa-2x"></i></a>
+						<a href="#" class="social-icon"><i class="fa fa-instagram fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
