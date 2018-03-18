@@ -1,7 +1,3 @@
-
-.hideme{
-    opacity:0;
-}
 html{
 	background-color: rgba(15, 15, 15, .95);
 	/*background: rgba(0, 195, 255, .6), url("/background.png");*/
@@ -40,7 +36,6 @@ header{
 ul{
 	-webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
-	
 }
 
 a.navbar-brand{
@@ -64,12 +59,53 @@ a.navbar-brand{
 	height: 350px;
 }
 
+.btn{
+	background-color: rgba(0, 195, 255, .8);
+	border-color: rgba(0, 195, 255, .8);
+	color: white;
+}
 
-/*FAQ*/
+.btn:hover{
+	background-color: rgba(0, 174, 255, .8);
+	border-color: rgba(0, 174, 255, .8);
+	color: white;
+}
+
+a{
+	color: rgba(0, 195, 255, .6);
+}
+
+/* Other Page Details */
 .jumbotron{
 	background-image: url("/resources/assets/banners/banner01.jpg");
 }
 
+/* Login Page */
+#login-form{
+	width: 360px;
+	margin: auto;
+}
+
+#create-account-link-container{
+	border-top: solid rgba(140, 140, 140, .3) 1px;
+	margin: 15px 0;
+	padding: 10px 0;
+}
+
+#login-forgot-password{
+	float: right;
+	margin: 10px 0;
+}
+
+.input-group{
+	margin: 15px 0;
+}
+
+#remember-me{
+	float: left;
+}
+
+/*FAQ*/
 #faqQuestions{
 	width: 65%;
 	margin: auto;
@@ -100,3 +136,15 @@ a.navbar-brand{
 .social-icon{
 	margin: 5px;
 }
+
+/* For Animations */
+.showOnScroll{
+    opacity:0;
+}
+
+.btn{
+	transition: background-color .3s ease-out;
+	-webkit-transition: background-color .3s ease-out;
+}
+
+
