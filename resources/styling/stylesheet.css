@@ -2,7 +2,10 @@ html{
 	background-color: rgba(15, 15, 15, .95);
 	/*background: rgba(0, 195, 255, .6), url("/background.png");*/
 	text-align: center;
-	
+}
+
+body{
+	padding-top: 50px; /*Pushes Banner below navbar*/
 }
 
 ul, li{
@@ -80,13 +83,13 @@ a{
 	background-image: url("/resources/assets/banners/banner01.jpg");
 }
 
-/* Login Page */
+/* Login and Registration Page */
 #login-form{
 	width: 360px;
 	margin: auto;
 }
 
-#create-account-link-container{
+#create-account-link-container, #login-account-link-container{
 	border-top: solid rgba(140, 140, 140, .3) 1px;
 	margin: 15px 0;
 	padding: 10px 0;
@@ -105,11 +108,10 @@ a{
 	float: left;
 }
 
-/*FAQ*/
+/* FAQ */
 #faqQuestions{
 	width: 65%;
 	margin: auto;
-	
 }
 
 .question{
@@ -126,6 +128,19 @@ a{
 
 .faqSection{
 	border-bottom: solid rgba(140, 140, 140, .3) 1px;
+}
+
+/* About Us */
+#profiles{
+	margin: auto;
+	width: 50%;
+}
+
+.media{
+	border-bottom: solid rgba(140, 140, 140, .3) 1px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
 }
 
 /* Footer */

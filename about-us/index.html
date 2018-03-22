@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nova Designs - Login</title>
+		<title>Nova Designs - About Us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -27,48 +27,43 @@
 							<li><a href="/">Home</a></li>
 							<li><a href="/pricing">Pricing</a></li>
 							<li><a href="/projects">Projects</a></li>
-							<li><a href="/about-us">About Us</a></li>
+							<li class="active"><a href="/about-us">About Us</a></li>
 							<li><a href="/faq/">FAQ</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="/register/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-							<li class="active"><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							<li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+							<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 			<div id="content">
 				<div class="jumbotron">
-					<h1>Login</h1> 
+					<h1>About Us</h1> 
 					<p></p> 
 				</div>
-				<div id="login-form">
-					<form>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-							<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+				<div id="profiles">
+					<div class="media">
+						<div class="media-left">
+							<img src="/resources/assets/images/profile-picture.png" class="media-object" style="width:60px">
 						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-							<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+						<div class="media-body">
+							<h4 class="media-heading" style="padding-left: 10px; text-align: left;">Varun Nair</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div id="extra-options">
-							<div id="remember-me" class="checkbox">
-								<label><input type="checkbox"> Remember me</label>
-							</div>
-							<div id="login-forgot-password">
-								<a href="#">Forgot your password?</a>
-							</div>
+					</div>
+					<div class="media">
+						<div class="media-body">
+							<h4 class="media-heading" style="padding-right: 10px; text-align: right;">Antonio Gaspari</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<button type="submit" class="btn btn-default btn-block">Submit</button>
-						<div id="create-account-link-container">
-							<p>Don't have an account? Create one <a href="/register/">here</a></p>
+						<div class="media-right">
+							<img src="/resources/assets/images/profile-picture.png" class="media-object" style="width:60px">
 						</div>
-					</form>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div id="footer" class="row">
+			<div id="footer" class="row">
 				<div class="footerSection col-lg-4 col-md-4 col-sm-6 col-xs-6">
 					<ul>
 						<li class="footer-item"><b>Nova Designs</b></li>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nova Designs - Login</title>
+		<title>Nova Designs - Register</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -31,15 +31,15 @@
 							<li><a href="/faq/">FAQ</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="/register/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-							<li class="active"><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							<li class="active"><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+							<li><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 			<div id="content">
 				<div class="jumbotron">
-					<h1>Login</h1> 
+					<h1>Registration</h1> 
 					<p></p> 
 				</div>
 				<div id="login-form">
@@ -52,17 +52,16 @@
 							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 							<input id="password" type="password" class="form-control" name="password" placeholder="Password">
 						</div>
-						<div id="extra-options">
-							<div id="remember-me" class="checkbox">
-								<label><input type="checkbox"> Remember me</label>
-							</div>
-							<div id="login-forgot-password">
-								<a href="#">Forgot your password?</a>
-							</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+							<input id="password" type="password" class="form-control" name="password2" placeholder="Confirm Password">
 						</div>
-						<button type="submit" class="btn btn-default btn-block">Submit</button>
-						<div id="create-account-link-container">
-							<p>Don't have an account? Create one <a href="/register/">here</a></p>
+						<div id="remember-me" class="checkbox">
+							<label><input type="checkbox"> I Agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+						</div>
+						<button type="submit" class="btn btn-default btn-block">Register</button>
+						<div id="login-account-link-container">
+							<p>Already have an account? Sign In <a href="/login/">here</a></p>
 						</div>
 					</form>
 				</div>
