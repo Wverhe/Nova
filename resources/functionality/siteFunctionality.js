@@ -13,7 +13,6 @@ $(document).ready(function() {
     $(window).scroll( function(){
         /* Check the location of each desired element */
         $('.showOnScroll').each( function(i){
-
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
@@ -23,4 +22,15 @@ $(document).ready(function() {
             }
         });
     });
+	
+	
+	$(".required").blur(function(){
+		if($(this).val() == ""){
+			$(this).parent().addClass("has-error");
+			$(this).parent().removeClass("has-success");
+		}else{
+			$(this).parent().removeClass("has-error");
+			$(this).parent().addClass("has-success");
+		}
+	});
 });
