@@ -83,8 +83,8 @@ a{
 	background-image: url("/resources/assets/banners/banner01.jpg");
 }
 
-/* Login and Registration Page */
-#login-form{
+/* Login, Registration and Contact Us Page */
+#login-form, #register-form, #contact-form{
 	width: 360px;
 	margin: auto;
 }
@@ -102,6 +102,12 @@ a{
 
 .input-group{
 	margin: 15px 0;
+	width: 100%;
+}
+
+textarea{
+	width: 100%;
+	resize: none;
 }
 
 #remember-me{

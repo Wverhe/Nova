@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nova Designs - Register</title>
+		<title>Nova Designs - Contact Us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -31,43 +31,35 @@
 							<li><a href="/faq/">FAQ</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-							<li><a href="/login/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							<li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+							<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 			<div id="content">
 				<div class="jumbotron">
-					<h1>Registration</h1> 
+					<h1>Contact Us</h1> 
 					<p></p> 
 				</div>
-				<div id="register-form">
+				<div id="contact-form">
 					<form>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
+							<textarea id="comment" class="form-control required" name="comments" placeholder="Comments"></textarea>
+						</div>
 						<div class="input-group">
 							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
 							<input id="email" type="text" class="form-control required" name="email" placeholder="Email">
 						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-							<input id="password" type="password" class="form-control required" name="password" placeholder="Password">
-						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-							<input id="password2" type="password" class="form-control required" name="password2" placeholder="Confirm Password">
-						</div>
-						<div id="remember-me" class="checkbox">
-							<label><input type="checkbox"> I Agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
-						</div>
-						<button type="submit" class="btn btn-default btn-block">Register</button>
-						<div id="login-account-link-container">
-							<p>Already have an account? Sign In <a href="/login/">here</a></p>
+						<button type="submit" class="btn btn-default btn-block">Submit</button>
+						<div id="create-account-link-container">
+							<p>Before submitting please check FAQ <a href="/faq/">here</a></p>
 						</div>
 					</form>
 				</div>
 			</div>
-		</div>
-		<div id="footer" class="row">
+			<div id="footer" class="row">
 				<div class="footerSection col-lg-4 col-md-4 col-sm-6 col-xs-6">
 					<ul>
 						<li class="footer-item">Sign up for <b>Nova Designs</b> Newsletter!</li>
