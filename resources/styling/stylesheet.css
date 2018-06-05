@@ -26,6 +26,13 @@ header{
 	text-align: left;
 }
 
+.bs{
+    max-width:100%;
+    margin:auto;
+    width: 60%;
+    
+}
+
 #header-link{
 	padding: 15px;
 }
@@ -151,7 +158,12 @@ textarea{
 
 /* Footer */
 #footer{
-	margin: 30px auto;
+	margin-top: 80px;
+    padding-top: 5px;
+    margin-bottom: 0xp;
+    margin-left: 30px auto;
+    margin-right: 30px auto;
+    background-color: #111111;
 }
 
 .social-icon{
