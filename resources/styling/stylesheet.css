@@ -179,3 +179,34 @@ textarea{
 	transition: background-color .3s ease-out;
 	-webkit-transition: background-color .3s ease-out;
 }
+/* For Portfolio Gallery*/ 
+div.porfolio-gallery{
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+
+    
+}
+div.psection {
+    margin: 5px;
+    float: left;
+    width: 480px;
+    padding: 5px;
+}
+
+div.psection:hover {
+    border: 1px solid #777;
+}
+
+div.psection img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
