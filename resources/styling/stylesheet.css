@@ -20,6 +20,7 @@ li a, li a:hover{
 body{
 	background-color: transparent;
 	color: white;
+	overflow-x: hidden;
 }
 
 header{
